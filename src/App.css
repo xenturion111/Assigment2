@@ -1,11 +1,12 @@
 .App-body {
-  background-color: chartreuse;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .table,
@@ -18,11 +19,11 @@ td {
   width: 50%;
   background-color: #090c1f;
   border-collapse: collapse;
-  font-size: 32px;
+  font-size: 20px;
   border-radius: 15px;
   -moz-border-radius: 15px;
   overflow: hidden;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .currencyTable td {
@@ -48,4 +49,8 @@ p {
 p a {
   font-weight: 500;
   color: white;
+}
+
+h1 {
+  text-shadow: 1px 1px white;
 }
